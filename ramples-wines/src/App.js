@@ -1,13 +1,15 @@
 import React from 'react';
 import DisplayLiquor from './components/DisplayLiquor';
 import './App.css';
+import NavBar from './components/NavBar';
 
-function App(){
+function App() {
   return (
-  <div>
-    <DisplayLiquor />
-  </div>
-  )
-  }
-  
-  export default App;
+    <div>
+      <NavBar />
+      <DisplayLiquor />
+    </div>
+  );
+}
+
+export default App;

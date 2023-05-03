@@ -1,0 +1,204 @@
+{
+  "liquors": [
+    {
+      "id": 1,
+      "name": "Glenfiddich 18yrs 700ml",
+      "image": "https://cdn.shopify.com/s/files/1/0043/9258/3217/products/Glenfiddich-18-Year-Single-Malt-Scotch-Whisky-700ml-box_2048x2048.png?v=1645487450",
+      "origin": "Scotland",
+      "description": "Richly delivers luxurious dried fruit, candy peel and dates. Overlaid with elegant oak notes.",
+      "brand": "Single Malt Whisky",
+      "price": 15000,
+      "quantity": 20
+    },
+    {
+      "id": 2,
+      "name": "Balvenie Caribbean Cask 14 years 700ml",
+      "image": "https://cdn.shopify.com/s/files/1/2050/5437/products/Balvenie-Caribbean-Cask-14-Years_600x600.jpg?v=1571611082",
+      "origin": "Scotland",
+      "description": "Balvenie Caribbean Cask 14 years single malt whisky has been matured in traditional oak whisky casks for 14 years, and then finished in casks that previously held Caribbean rum.",
+      "brand": "Single Malt Whisky",
+      "price": 11900,
+      "quantity": 15
+    },
+    {
+      "id": 3,
+      "name": "Woodford Reserve 700ml",
+      "image": "https://www.liquor.com/thmb/JZ87-V23EcCtXgbXns49o0mAKJg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bottle-review_woodford-reserve_1500x1500-7c7707c43253442bbf8af2e512333871.jpg",
+      "origin": "America",
+      "description": "Woodford Reserve is a clean, brilliant honey amber-appearing Kentucky Bourbon. It consists of over 200 detectable flavour notes ranging from bold grain and wood to sweet aromatics, spice, and fruity floral notes.",
+      "brand": "Bourbon",
+      "price": 5000,
+      "quantity": 25
+    },
+    {
+      "id": 4,
+      "name": "Martell XO 700ml",
+      "image": "https://jayswines.com/wp-content/uploads/2021/04/Martell-XO.jpg",
+      "origin": "France",
+      "description": "Martell XO is made by blending Eaux-de-vie from both the Borderies and Grande Champagne regions. The brilliant Martell XO  is a soft, mellow cognac with hints of rancio, citrus, blossom and walnut.",
+      "brand": "Cognac",
+      "price": 36000,
+      "quantity": 25
+    },
+    {
+      "id": 5,
+      "name": "Dom Perignon 750ml",
+      "image": "https://soys.co.ke/PImages/OVXHZ-0.jpg",
+      "origin": "France",
+      "description": "Dom Perignon expresses confident, enhanced maturity. The assertive character of this wine now gives it genuine and authentic power; a delicate complexity woven through with freshness and minerality, coming together in a light texture. It conjures up pale gold, enhanced with the energy of light: radiant gold.",
+      "brand": "Brut Champagne",
+      "price": 47500,
+      "quantity": 20
+    },
+    {
+      "id": 6,
+      "name": "Simonsig Frans Malan Dry Red 750ml",
+      "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h16/h3f/14192728932382/62861_main.jpg_480Wx480H",
+      "origin": "South Africa",
+      "description": "The Frans Malan Dry Wine is a blend of different grape varieties, including Cabernet Sauvignon, Merlot, and Cabernet Franc. It has a deep ruby colour, complex aromas, and rich flavours.",
+      "brand": "Wine",
+      "price": 5900,
+      "quantity": 10
+    },
+    {
+      "id": 7,
+      "name": "Bacalhoa Moscatel 750ml",
+      "image": "https://www.bebidaonline.com.br/media/catalog/product/cache/1/thumbnail/800x/99cfa2db909aa8be0aba7059fa3f7550/v/i/vinho_bacalhoa_moscatel_setubal_d.o._750ml.jpg",
+      "origin": "Portugal",
+      "description": "It has a deep amber colour and a sweet, honeyed flavour with notes of caramel, dried fruit, and spices such as cinnamon and nutmeg. It has a smooth and velvety texture, with a long and lingering finish.",
+      "brand": "Wine",
+      "price": 1550,
+      "quantity": 30
+    },
+    {
+      "id": 8,
+      "name": "JP Chenet Sauvignon Blanc 750ml",
+      "image": "https://www.jpchenet.com/wp-content/uploads/thumbnail-sauvignon-blanc.jpg",
+      "origin": "France",
+      "description": "JP Chenet Sauvignon Blanc is a highly aromatic and very light French wine.",
+      "brand": "Wine",
+      "price": 1500,
+      "quantity": 20
+    },
+    {
+      "id": 9,
+      "name": "Luc Belaire Rose 750ml",
+      "image": "https://liquorsquare.co.ke/lsqr-media/2021/11/belaire-rare-rose-750ml-Ksh.-4000.jpg",
+      "origin": "France",
+      "description": "Luc Belaire Rose is a dramatically beautiful sparkling rose: a rich, vibrant pink colour.",
+      "brand": "Wine",
+      "price": 5100,
+      "quantity": 25
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2015/04/ciroc-vodka.jpg",
+      "name": "Ciroc 1 Litre",
+      "price": "6000",
+      "description": "Lusciously smooth & playfully sophisticated, Ciroc Vodka is a commitment to superior taste, quality and a fun-loving lifestyle.",
+      "origin": "France",
+      "brand": "Vodka",
+      "quantity": "25",
+      "id": 10
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2015/04/Konyagi-750ml.jpg",
+      "name": "Konyagi 750ml",
+      "price": "850",
+      "description": "Konyagi has Citrus, tropical fruit and spicy notes. The flavouring is nice and not overdone. Smooth enough to drink on its own",
+      "origin": "Tanzania",
+      "brand": "Spirit",
+      "quantity": "25",
+      "id": 11
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2021/08/Buy-Macallan-Oscuro-online-in-Nairobi.jpg",
+      "name": "Macallan Oscuro 700ml",
+      "price": "120000",
+      "description": "Vanilla fudge, red berries and chocolate malt. Intense sherry and pine resin, a little cookie dough with chocolate chips and cinnamon.",
+      "origin": "Scotland",
+      "brand": "Single Malt Whisky",
+      "quantity": "20",
+      "id": 12
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2021/11/glenfiddich-grand-cru.jpg",
+      "name": "Glenfiddich Grand Cru 23 Years 700ml ",
+      "price": "28000",
+      "description": "Glenfiddich Grand Cru has been matured for 23 years in American and European oak casks before being elegantly finished in rare French Cuvee casks.",
+      "origin": "Scotland",
+      "brand": "Single Malt Whisky",
+      "quantity": "20",
+      "id": 13
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2015/04/Buy-moet-chandon-champagne-online-in-Nairobi-Kenya.jpg",
+      "name": "Moet & Chandon Imperial Brut 750ml",
+      "price": "10600",
+      "description": "Moet & Chandon Imperial Brut is the House’s iconic champagne. Created in 1869, it embodies Moët & Chandon’s unique style, a style distinguished by its bright fruitiness, its seductive palate and its elegant maturity.",
+      "origin": "France",
+      "brand": "Brut Champagne",
+      "quantity": "15",
+      "id": 14
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2022/01/g.h.-mumm-demi-sec-750ml.jpg",
+      "name": "GH Mumm Demi Sec 750ml",
+      "price": "6400",
+      "description": "GH Mumm Demi Sec is the House’s gourmet signature champagne, a Cuvée that perpetuates the fine tradition of dessert champagnes.",
+      "origin": "France",
+      "brand": "Brut Champagne",
+      "quantity": "10",
+      "id": 15
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2021/08/Buy-Hennessy-Paradis-Online-in-Nairobi-at-Jays-Wines.jpg",
+      "name": "Hennessy Paradis 750ml",
+      "price": "249000",
+      "description": "Created by Maurice Fillioux in 1979, the cognac Hennessy Paradis is known for its voluptuous and harmonious aroma. It consists of Eaux-de-vie, which are a reflection of the personality of such a delightful cognac: supple, light and round.",
+      "origin": "France",
+      "brand": "Cognac",
+      "quantity": "5",
+      "id": 16
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2020/09/courvoisier-vsop-cognac.jpg",
+      "name": "Courvoisier VSOP 1 litre",
+      "price": "8250",
+      "description": "Courvoisier VSOP- Made from the delicate marriage of 4 crus for a subtly floral, uniquely complex richness. Courvoisier VSOP symbolizes the versatile and multi-layered nature of the House of Courvoisier.",
+      "origin": "France",
+      "brand": "Cognac",
+      "quantity": "15",
+      "id": 17
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2021/08/Buy-Patron-Anejo-online-in-Nairobi-from-Jaywines.jpg",
+      "name": "Patron Anejo 750ml ",
+      "price": "10400",
+      "description": "Patron Anejo has oak wood hints with notes of vanilla, raisin & honey and a smoky finish.",
+      "origin": "Mexico",
+      "brand": "Tequila",
+      "quantity": "10",
+      "id": 18
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2022/01/Don-Julio-Blanco-750ml38.jpg",
+      "name": "Don Julio Blanco 750ml ",
+      "price": "7900",
+      "description": "Don Julio Blanco is made using the finest blue agave plant and a time-honoured distillation process.  Commonly referred to as “silver” tequila, its crisp agave flavour and hints of citrus make it an essential component to a variety of innovative drinks including margaritas.",
+      "origin": "Mexico",
+      "brand": "Tequila",
+      "quantity": "20",
+      "id": 19
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2020/11/Buy-Grahams-10yrs-Tawny-Port-750ml-online-in-Nairobi.jpg",
+      "name": "Grahams 10yrs Tawny Port 750ml ",
+      "price": "6200",
+      "description": "Grahams 10yrs Tawny Port has a deep tawny and polished copper colour with complex aromas combined with hints of honey and figs.",
+      "origin": "Portugal",
+      "brand": "Wine",
+      "quantity": "10",
+      "id": 20
+    }
+  ]
+}

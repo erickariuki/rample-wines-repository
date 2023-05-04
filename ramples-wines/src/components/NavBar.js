@@ -1,13 +1,10 @@
-
 import { useState } from 'react';
+import { NavLink } from "react-router-dom";
 function NavBar() {
   const [searchQuery, setSearchQuery] = useState('');
   const handleSearch = (e) => {
     e.preventDefault();
-   
-  
     console.log('Searching for:', searchQuery);
-    
     // TODO: Implement search functionality
   };
   return (
@@ -27,30 +24,27 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        <div>
+        <NavLink to="/"href="#"></NavLink>
+        </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="index.html">
-                Products
-              </a>
-            </li>
+            <NavLink to="/products" className="nav-link active" aria-current="page" href="#" >Products</NavLink>
+           </li>
             <li className="nav-item">
               <a className="nav-link" href="admin.html">
                 Feedback Form
               </a>
             </li>
-
             <li className="nav-item">
-              <a className="nav-link" href="admin.html">
-                Table
-              </a>
+            <NavLink to="/table" className="nav-link active" aria-current="page" href="#" >Table</NavLink>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="admin.html">
                 Form
               </a>
             </li>
-        
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"

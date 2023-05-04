@@ -41,16 +41,6 @@
       "quantity": 25
     },
     {
-      "id": 5,
-      "name": "Dom Perignon 750ml",
-      "image": "https://soys.co.ke/PImages/OVXHZ-0.jpg",
-      "origin": "France",
-      "description": "Dom Perignon expresses confident, enhanced maturity. The assertive character of this wine now gives it genuine and authentic power; a delicate complexity woven through with freshness and minerality, coming together in a light texture. It conjures up pale gold, enhanced with the energy of light: radiant gold.",
-      "brand": "Brut Champagne",
-      "price": 47500,
-      "quantity": 20
-    },
-    {
       "id": 6,
       "name": "Simonsig Frans Malan Dry Red 750ml",
       "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h16/h3f/14192728932382/62861_main.jpg_480Wx480H",
@@ -189,16 +179,6 @@
       "brand": "Tequila",
       "quantity": "20",
       "id": 19
-    },
-    {
-      "image": "https://jayswines.com/wp-content/uploads/2020/11/Buy-Grahams-10yrs-Tawny-Port-750ml-online-in-Nairobi.jpg",
-      "name": "Grahams 10yrs Tawny Port 750ml ",
-      "price": "6200",
-      "description": "Grahams 10yrs Tawny Port has a deep tawny and polished copper colour with complex aromas combined with hints of honey and figs.",
-      "origin": "Portugal",
-      "brand": "Wine",
-      "quantity": "10",
-      "id": 20
     }
   ]
 }

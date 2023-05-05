@@ -40,11 +40,9 @@ function NavBar() {
             <li className="nav-item">
             <NavLink to="/table" className="nav-link active" aria-current="page" href="#" >Table</NavLink>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="admin.html">
-                Form
-              </a>
-            </li>
+            {/* <li className="nav-item">
+            <NavLink to="/form" className="nav-link active" aria-current="page" href="#" >Form</NavLink>
+            </li> */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"

@@ -4,6 +4,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import LiquorTable from './components/TableLiquor';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AddLiquorForm from './components/AddLiquorForm';
+import Footer from './components/Footer.js';
 function App() {
   return (
     <div>
@@ -16,8 +18,11 @@ function App() {
   </Route>
   <Route path="/table" element={ <LiquorTable />}>
   </Route>
+  <Route path="/form" element={ <AddLiquorForm />}>
+  </Route>
   </Routes>
   </BrowserRouter>
+  <Footer />
   </div>
   );
 }

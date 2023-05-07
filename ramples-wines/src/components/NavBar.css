@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    align-items: left;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #ad4343;
+    text-shadow: 2px 2px #000;
+    margin-right: 1rem;
+  }
+  
+  .logo img {
+    height: 1px;
+width: 1px;
+margin-left: 0cm;
+    margin-right: 0px;
+    border-radius: 0px;
+     /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  */
+  }
+  

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
+import './NavBar.css';
 function NavBar() {
   const [searchQuery, setSearchQuery] = useState('');
   const handleSearch = (e) => {
@@ -10,10 +11,14 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
+        
+        <h1 className='logo'>logo</h1>
+        <img src={"https://t4.ftcdn.net/jpg/04/55/23/13/240_F_455231321_vBUcNJViYqmKk0Gal5t8eMWH0L87fTfq.jpg"} alt="" />
         <a className="navbar-brand" href="#">
           Sherehe Wines
         </a>
         <button
+    
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"

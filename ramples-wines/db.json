@@ -237,6 +237,12 @@
       "email": "cate@gmail.com",
       "comments": "I would highly recommend the place",
       "id": 6
+    },
+    {
+      "name": "Chris Kamau",
+      "email": "kamau@gmail.com",
+      "comments": "High quality products",
+      "id": 7
     }
   ]
 }

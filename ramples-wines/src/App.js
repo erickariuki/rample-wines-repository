@@ -6,6 +6,7 @@ import LiquorTable from './components/TableLiquor';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AddLiquorForm from './components/AddLiquorForm';
 import FeedbackForm from './components/FeedbackForm';
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
   </Route>
   </Routes>
   </BrowserRouter>
+  <Footer />
   </div>
   );
 }

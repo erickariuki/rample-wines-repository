@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <p>Sherehe Wines</p>
       <p>Not for consumption and sale to persons under the age of 18</p>
-      <p>Eric Kariuki © 2023 - All Rights Reserved</p>
+      <p>free Delivery for purchases above 3000</p>
     </footer>
   );
 }

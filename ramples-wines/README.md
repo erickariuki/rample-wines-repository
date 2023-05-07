@@ -23,3 +23,9 @@ Open the browser and go to http://localhost:3000 to view the component
 
 License
 This component is released under the MIT License.
+
+
+created by:
+Chris Kamau
+Abdi Halake
+Eric Kariuki

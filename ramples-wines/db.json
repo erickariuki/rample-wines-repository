@@ -179,6 +179,70 @@
       "brand": "Tequila",
       "quantity": "20",
       "id": 19
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2021/06/Mucho-Mas-Black-Edition-750ML.png",
+      "name": "Mucho Más Red  750ml",
+      "price": "2000",
+      "description": "Mucho Más Red is a cherry red, medium-high layer and compact edging wine. Aromatic, elegant with good intensity. Memories of ripe black fruit, scrubland, balsamic.",
+      "origin": "Spain",
+      "brand": "Wine",
+      "quantity": "10",
+      "id": 20
+    },
+    {
+      "image": "https://jayswines.com/wp-content/uploads/2020/09/amarula-750-1-600x600.png",
+      "name": "Amarula Cream 1ltr ",
+      "price": "2500",
+      "description": "The smooth taste of Amarula cream is as a result of blending with velvety cream. With all the work that goes behind the making of this cream liqueur from South Africa, it is only right that we find a better way to savour it. So, serve Amarula over ice. And find a view.",
+      "origin": "South Africa",
+      "brand": "Liqueur",
+      "quantity": "10",
+      "id": 21
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Alan Muthui",
+      "email": "muthui@gmail.com",
+      "comments": "Awesome customer experience"
+    },
+    {
+      "name": "Olive Karanja",
+      "email": "olive@gmail.com",
+      "comments": "Quality Products",
+      "id": 2
+    },
+    {
+      "name": "Chris Kamau",
+      "email": "enter@gmail.com",
+      "comments": "Good Customer Service",
+      "id": 3
+    },
+    {
+      "name": "Eric Kariuki",
+      "email": "eric@gmail.com",
+      "comments": "Fast and Effecient Delivery",
+      "id": 4
+    },
+    {
+      "name": "Violone Wanja",
+      "email": "muthui@gmail.com",
+      "comments": "I really enjoyed the Mucho Mas",
+      "id": 5
+    },
+    {
+      "name": "Cate Wanjiru",
+      "email": "cate@gmail.com",
+      "comments": "I would highly recommend the place",
+      "id": 6
+    },
+    {
+      "name": "Chris Kamau",
+      "email": "kamau@gmail.com",
+      "comments": "High quality products",
+      "id": 7
     }
   ]
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
+import './NavBar.css';
 function NavBar() {
   const [searchQuery, setSearchQuery] = useState('');
   const handleSearch = (e) => {
@@ -10,10 +11,14 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
+        
+        <h1 className='logo'>logo</h1>
+        <img src={"https://t4.ftcdn.net/jpg/04/55/23/13/240_F_455231321_vBUcNJViYqmKk0Gal5t8eMWH0L87fTfq.jpg"} alt="" />
         <a className="navbar-brand" href="#">
           Sherehe Wines
         </a>
         <button
+    
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -33,58 +38,10 @@ function NavBar() {
             <NavLink to="/products" className="nav-link active" aria-current="page" href="#" >Products</NavLink>
            </li>
             <li className="nav-item">
-              <a className="nav-link" href="admin.html">
-                Feedback Form
-              </a>
+            <NavLink to="/feedback-form" className="nav-link active" aria-current="page" href="#" >Feedback Form</NavLink>
             </li>
             <li className="nav-item">
             <NavLink to="/table" className="nav-link active" aria-current="page" href="#" >Table</NavLink>
-            </li>
-            {/* <li className="nav-item">
-            <NavLink to="/form" className="nav-link active" aria-current="page" href="#" >Form</NavLink>
-            </li> */}
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Product Brands
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Whisky
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Bourbon
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Cognac
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Vodka
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Champagne
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Wine
-                  </a>
-                </li>
-              </ul>
             </li>
             <li className="nav-item">
               <span className="navbar-text mx-auto">Place your order: 0722179020</span>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './AddLiquorForm.css';
 
 
 function AddLiquorForm({ onAdd }) {
@@ -98,7 +99,7 @@ function AddLiquorForm({ onAdd }) {
         required
       />
       <button type="submit" className="btn btn-primary">
-        Add Liquor
+        Submit
       </button>
     </form>
   );

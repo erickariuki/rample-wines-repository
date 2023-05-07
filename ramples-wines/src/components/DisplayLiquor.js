@@ -31,7 +31,7 @@ function DisplayLiquor() {
 
   return (
     <div>
-      <h1>Sherehe Wines</h1>
+      {/* <h1>Sherehe Wines</h1> */}
       <ul id="item-list">
         {liquors.map(liquor => (
           <li key={liquor.id} className="card col-2 p-0 m-2" data-id={liquor.id} onClick={() => handleToggleDetails(liquor.id)}>
